@@ -7,7 +7,7 @@
 - `service mysql start & service apache2 start` (root)
 - `git clone https://github.com/hyena0x/small-ctf.git`
 - `cd small-ctf`
-- `pip install requirements.txt`
-- `python3 setup.py` (root, don't forget to change password for root user)
+- `python3 -m pip install mysql-connector-python `
+- `python3 setup.py`
 - `cd .. ; mv small-ctf /var/www/html`
-- `browse to  localhost :)`
+- `browse to  localhost/small-ctf :)`
