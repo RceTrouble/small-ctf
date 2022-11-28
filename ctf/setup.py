@@ -7,7 +7,7 @@ db = mysql.connector.connect(
 )
 
 cmd = db.cursor()
-cmd.execute("CREATE USER 'hacker'@'localhost' IDENTIFIED BY 'holy!shit!'")
+cmd.execute("CREATE USER 'hacker'@'localhost' IDENTIFIED BY 's3cur3!p4ss!'")
 cmd.execute("CREATE DATABASE test_users")
 cmd.execute("USE test_users")
 cmd.execute("GRANT ALL PRIVILEGES ON test_users.* TO 'hacker'@'localhost'")
