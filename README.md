@@ -5,7 +5,7 @@
 
 ### Setup
 - `service mysql start & service apache2 start` (root)
-- `git clone https://github.com/hyena0x/small-ctf.git`
+- `git clone https://github.com/RceTrouble/small-ctf.git`
 - `cd small-ctf`
 - `python3 -m pip install mysql-connector-python `
 - `python3 setup.py`
